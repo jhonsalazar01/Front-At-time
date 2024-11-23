@@ -4,7 +4,7 @@ document.querySelector("#btnSend").addEventListener('click', () => {
   
 	const data = { email: email, password: password };
   
-	const URL = "http://localhost:4081/api/user/login";
+	const URL = "https://api-users-rho.vercel.app/api/user/login";
 
 	errorMessage.style.display = 'none';
 
